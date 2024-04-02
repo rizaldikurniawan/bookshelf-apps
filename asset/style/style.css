@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Arial';
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+h1,
+h2,
+label,
+footer {
+  color: #627254;
+}
+
+main {
+  display: flex;
+}
+
+.tambah-buku,
+.edit-buku,
+.belum-dan-selesai {
+  flex: 2;
+  background-color: #dddddd;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+}
+
+header {
+  background-color: #dddddd;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 1px;
+}
+
+footer {
+  text-align: center;
+  background-color: #dddddd;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+p {
+  font-style: italic;
+  font-size: small;
+}
+
+.judul {
+  background-color: #627254;
+  border-radius: 10px;
+  color: #dddddd;
+  font-size: medium;
+  padding: 10px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="asset/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Bookshelf Apps</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="tambah-buku">
+        <h2 class="judul">Tambahkan Data Buku Anda</h2>
+        <form id="form">
+          <div>
+            <label for="title">Title Buku</label>
+            <input type="text" id="title" required />
+          </div>
+          <div>
+            <label for="author">Author Buku</label>
+            <input type="text" id="author" required />
+          </div>
+          <div>
+            <label for="year">Year Buku</label>
+            <input type="text" id="year" required />
+          </div>
+          <input type="submit" />
+        </form>
+      </div>
+
+      <div class="edit-buku">
+        <h2 class="judul">Edit Data Buku Anda</h2>
+        <p>Silahkan pilih data yang akan diedit dahulu dan klik menu "Edit" dibawahnya untuk mengedit</p>
+        <form id="edit-form">
+          <div>
+            <label for="edit-title">Title Buku</label>
+            <input type="text" id="edit-title" required />
+          </div>
+          <div>
+            <label for="edit-author">Author Buku</label>
+            <input type="text" id="edit-author" required />
+          </div>
+          <div>
+            <label for="edit-year">Year Buku</label>
+            <input type="text" id="edit-year" required />
+          </div>
+          <input type="submit" value="Edit" />
+        </form>
+      </div>
+      <div class="belum-dan-selesai">
+        <div class="search">
+          <form id="form2">
+            <div>
+              <label for="search">Cari Judul Buku</label>
+              <input type="text" id="search" />
+            </div>
+            <input type="submit" value="Mulai" />
+          </form>
+        </div>
+        <div class="belum-baca">
+          <h2 class="judul">Buku Belum Selesai Terbaca</h2>
+          <div id="buku-belum-selesai"></div>
+        </div>
+        <div class="sudah-baca">
+          <h2 class="judul">Buku Selesai Terbaca</h2>
+          <div id="buku-sudah-selesai"></div>
+        </div>
+      </div>
+    </main>
+    <footer>oleh: Rizky Rizaldi Kurniawan, 2024</footer>
+
+    <script src="js/indext.js"></script>
+  </body>
+</html>
